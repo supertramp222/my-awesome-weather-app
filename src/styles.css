@@ -34,7 +34,7 @@ li {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #000;
 }
 
@@ -142,4 +142,9 @@ div.col-2 {
 .form-control:focus {
   outline: 5px solid #ffe96dcf;
   box-shadow: none;
+}
+
+.link-github {
+  padding-top: 1.5em;
+  text-align: center;
 }
